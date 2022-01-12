@@ -11,7 +11,7 @@ export default function Users() {
           });
    }, []);
    return (
-      <div>
+      <div className={'sup'}>
          <ul>
             {
                 users.map(value => <li key={value.id}> {value.name}</li>)

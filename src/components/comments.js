@@ -11,7 +11,7 @@ export default function Comments() {
     }, []);
 
     return (
-        <div>
+        <div className={'sup'}>
             <users/>
             <ul>
                 {

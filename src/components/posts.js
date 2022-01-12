@@ -11,9 +11,9 @@ export default function Posts() {
     }, []);
 
     return (
-        <div>
+        <div className={'sup'}>
             <users/>
-            <ul>
+            <ul className={'zzz'}>
                 {
                     posts.map(value => <li key={value.id}> {value.title}</li>)
                 }
